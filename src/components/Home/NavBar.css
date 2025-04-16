@@ -1,0 +1,36 @@
+/* Navbar Component Styles */
+
+/* navbar background color */
+.navbar-customcolor {
+    background-color: #b3d4fd;
+  }
+  
+  /* text styling */
+  .navbar-brand {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+  
+  /* remove border from navbar toggler */
+  .navbar-toggler {
+    border: none;
+  }
+  
+  /* text color for links */
+  .navbar-nav .nav-link {
+    color: black !important;
+  }
+  
+  /* font style for nav items */
+  .nav-item .nav-link {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+  }
+  
+  /* log out button */
+  .btn-danger {
+    background-color: #e60000;
+    border-color: #e60000;
+  }
+  
+  
