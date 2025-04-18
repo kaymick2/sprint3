@@ -22,8 +22,7 @@ import awsconfig from './amplify-config.js'
 /**
  * Configure AWS Amplify with the settings from amplify-config.js
  * This sets up authentication, API, and other AWS services for the application
- */
-Amplify.configure(awsconfig, { ssr: false })
+ Amplify.configure(awsconfig)
 
 /**
  * Create a React root and render the App component inside StrictMode
